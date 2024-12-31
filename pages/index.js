@@ -295,9 +295,7 @@ const MobileBrakeLanding = () => {
                 <li>• Monticello</li>
                 <li>• Madison</li>
                 <li>• Perry</li>
-                <li>
-                <li>• Perry</li>
-                <li>• Bristol</li>
+                <li>• Bristol</li>      
               </ul>
             </div>
           </div>
