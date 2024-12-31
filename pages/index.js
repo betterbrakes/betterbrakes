@@ -295,15 +295,69 @@ const MobileBrakeLanding = () => {
                 <li>• Monticello</li>
                 <li>• Madison</li>
                 <li>• Perry</li>
-                <li>• Bristol</li>      
+                <li>• Bristol</li>
               </ul>
             </div>
+        
+{/* CTA Section */}
+      <div className="py-16 bg-blue-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="bg-white rounded-lg shadow-xl p-8">
+            <h2 className="text-3xl font-bold mb-4 text-center">First-Time Customer Special!</h2>
+            <p className="text-xl mb-8 text-center text-gray-600">Get 15% off your first service - Limited Time Offer!</p>
+            
+            <form className="max-w-lg mx-auto space-y-6">
+              <div className="space-y-4">
+                <div>
+                  <label className="block text-gray-700 mb-2">Full Name</label>
+                  <input 
+                    type="text" 
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    placeholder="Your name"
+                  />
+                </div>
+                
+                <div>
+                  <label className="block text-gray-700 mb-2">Phone Number</label>
+                  <input 
+                    type="tel" 
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    placeholder="(850) XXX-XXXX"
+                  />
+                </div>
+                
+                <div>
+                  <label className="block text-gray-700 mb-2">Email Address</label>
+                  <input 
+                    type="email" 
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    placeholder="your@email.com"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-gray-700 mb-2">Vehicle Information (Optional)</label>
+                  <input 
+                    type="text" 
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    placeholder="Year, Make, Model"
+                  />
+                </div>
+              </div>
+
+              <button className="w-full bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-green-700 transition-colors">
+                Claim Your 15% Off Now
+              </button>
+
+              <p className="text-sm text-gray-500 text-center mt-4">
+                By submitting this form, you'll receive a free quote within 2 hours
+              </p>
+            </form>
           </div>
         </div>
       </div>
+    </div>
+  );
+};
 
-      {/* CTA Section */}
-      <div className="py-
-Last edited 3 hours ago
-
-
+export default MobileBrakeLanding;
