@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import { Wrench, Car, Clock, DollarSign, Star, Phone } from 'lucide-react';
 
@@ -292,6 +294,8 @@ const MobileBrakeLanding = () => {
               <ul className="space-y-2">
                 <li>• Monticello</li>
                 <li>• Madison</li>
+                <li>• Perry</li>
+                <li>
                 <li>• Perry</li>
                 <li>• Bristol</li>
               </ul>
